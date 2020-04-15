@@ -26,7 +26,7 @@ public class Basetest implements Autoconstant {
 		String name = r.getName();
 		if(status==2)
 		{
-			new Photo().getphoto(driver, photopath, name);
+			new Photo().getphoto(driver,photopath,name);
 		}
 		driver.close();
 	}
