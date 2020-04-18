@@ -15,7 +15,8 @@ public class Basetest implements Autoconstant {
 		System.setProperty(Key,Value);
 		driver=new ChromeDriver();
 		Propertyfile p=new Propertyfile();
-		driver.get(p.getdata("url"));   
+		driver.get(p.getdata("url"));
+		driver.manage().window().maximize();
 			
 		
 	}

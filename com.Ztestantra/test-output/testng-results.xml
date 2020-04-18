@@ -5,12 +5,12 @@
       <![CDATA[Data is not taken]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2834" started-at="2020-04-15T00:22:52 EDT" finished-at="2020-04-15T00:22:55 EDT">
+  <suite name="Default suite" duration-ms="2794" started-at="2020-04-15T21:30:44 EDT" finished-at="2020-04-15T21:30:47 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2834" started-at="2020-04-15T00:22:52 EDT" finished-at="2020-04-15T00:22:55 EDT">
+    <test name="Default test" duration-ms="2794" started-at="2020-04-15T21:30:44 EDT" finished-at="2020-04-15T21:30:47 EDT">
       <class name="scripts.Addingproducttocart">
-        <test-method status="FAIL" signature="openapp()[pri:0, instance:scripts.Addingproducttocart@49fc609f]" name="openapp" is-config="true" duration-ms="2791" started-at="2020-04-15T00:22:52 EDT" finished-at="2020-04-15T00:22:55 EDT">
+        <test-method status="FAIL" signature="openapp()[pri:0, instance:scripts.Addingproducttocart@49fc609f]" name="openapp" is-config="true" duration-ms="2740" started-at="2020-04-15T21:30:44 EDT" finished-at="2020-04-15T21:30:47 EDT">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[null value in entry: url=null]]>
@@ -64,7 +64,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="SKIP" signature="addingproduct()[pri:0, instance:scripts.Addingproducttocart@49fc609f]" name="addingproduct" duration-ms="0" started-at="2020-04-15T00:22:55 EDT" finished-at="2020-04-15T00:22:55 EDT">
+        <test-method status="SKIP" signature="addingproduct()[pri:0, instance:scripts.Addingproducttocart@49fc609f]" name="addingproduct" duration-ms="0" started-at="2020-04-15T21:30:47 EDT" finished-at="2020-04-15T21:30:47 EDT">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[null value in entry: url=null]]>
@@ -115,7 +115,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingproduct -->
-        <test-method status="SKIP" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scripts.Addingproducttocart@49fc609f]" name="closeapp" is-config="true" duration-ms="-1586924575613" started-at="2020-04-15T00:22:55 EDT" finished-at="1969-12-31T19:00:00 EST">
+        <test-method status="SKIP" signature="closeapp(org.testng.ITestResult)[pri:0, instance:scripts.Addingproducttocart@49fc609f]" name="closeapp" is-config="true" duration-ms="-1587000647400" started-at="2020-04-15T21:30:47 EDT" finished-at="1969-12-31T19:00:00 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
